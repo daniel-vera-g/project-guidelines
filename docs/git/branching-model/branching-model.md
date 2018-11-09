@@ -6,7 +6,7 @@
 
 ## Types of branches
 
-![gitflow](./img/gitflow.png)
+![gitflow](../../img/gitflow.png)
 
 ### Master branch
 
