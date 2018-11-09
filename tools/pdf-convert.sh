@@ -1,9 +1,4 @@
 #!/bin/bash
 # Convert all markdown files into pdf with pandoc
 
-for i in *.md; do
-    [ -f "$i" ] || break
-    echo item: $i
-    pandoc ../$i -o ../$i.pdf
-done
- 
+find ../ -iname "*.md" -type f -exec sh -c 'pandoc "${0}" -o "${0%.md}.pdf"' {} \;
