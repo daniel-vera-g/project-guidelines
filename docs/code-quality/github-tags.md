@@ -1,5 +1,7 @@
 # Github tags organisation
 
+> Github tags help developers to organize issues and PR
+
 1. Platform
 	* Nodejs
 	* React
@@ -30,9 +32,11 @@
 9.  Inactive
 	* invalid
 	* wontfix
-	* diplicate
+	* duplicate
 	* on hold
 
 ---
 
-Adapted from: [](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/)
+## Sources
+
+* Adapted from: [](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/)
