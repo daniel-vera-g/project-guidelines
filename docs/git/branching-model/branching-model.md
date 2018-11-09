@@ -2,7 +2,7 @@
 
 > GitHub issues are the core of just about every action
 
-* The git-flow branching model is being used. For simpler use, install [git-flow tool](https://github.com/petervanderdoes/gitflow-avh)
+* NOTE: The git-flow branching model is being used. For simpler use, install [git-flow tool](https://github.com/petervanderdoes/gitflow-avh)
 
 ## Types of branches
 
@@ -16,7 +16,7 @@
 
 > We consider origin/develop to be the main branch where the source code of HEAD always reflects a state with the latest delivered development changes for the next release. Some would call this the “integration branch”. This is where any automatic nightly builds are built from.
 
-* When code in the development branch is stable and ready to release, all of the changes should be merged back into master somehow and then tagged with a release number.
+* When code in the development branch is stable and ready to release, all of the changes should be merged back into master somehow and then tagged with a release number(See release branch).
 
 ### Feature branches
 
@@ -25,25 +25,6 @@
 * May branch off from: develop
 * Must merge back into: develop
 * Branch naming convention: anything except master, develop, release-*, or hotfix-*
-
-#### Creating a feature branch
-
-`git checkout -b myfeature develop`
-
-Incorporating feature back into develop branch:
-
-> The --no-ff flag causes the merge to always create a new commit object, even if the merge could be performed with a fast-forward. 
-
-```
-$ git checkout develop
-Switched to branch 'develop'
-$ git merge --no-ff myfeature
-Updating ea1b82a..05e9557
-(Summary of changes)
-$ git branch -d myfeature
-Deleted branch myfeature (was 05e9557).
-$ git push origin develop
-```
 
 #### Branch naming convention
 
@@ -60,10 +41,10 @@ $ git push origin develop
 
 ### Release Branches
 
-> Support preparation of a new production release
+> Support preparation of a new production release(Uses semantic-release)
 
-1. Create a release branch from the master as you get close to your release or other milestones, such as the end of the sprint.
-2. Give this branch a clear name associating it with a release, for example release/2.0 .
+1. Create a release branch from the develop branch as you get close to your release or other milestones, such as the end of the sprint.
+2. Give this branch a clear name associating it with a release, for example release/2.0(See semantic-release).
 
 * May branch off from: develop
 * Must merge back into: develop and master
@@ -72,30 +53,12 @@ $ git push origin develop
 * The key moment to branch off a new release branch from develop is when develop (almost) reflects the desired state of the new release.
 * It is exactly at the start of a release branch that the upcoming release gets assigned a version number—not any earlier.
 
-#### Creating a release branch
-
-TODO
-
-#### Finishing a release branch
-
-> semantic release
-
-TODO
-
 ### Hotfix branches
 
 * May branch off from: master
 * Must merge back into: develop and master
 * Branch naming convention: hotfix-*
-* Like release branches, but they arise from the necessity to act immediately uponan undesired state of a live production version
-
-#### Creating the hotfix branch
-
-TODO
-
-#### Finishing the hotfix branch
-
-TODO
+* Like release branches, but they arise from the necessity to act immediately upon an undesired state of a live production version
 
 ## Workflow
 
