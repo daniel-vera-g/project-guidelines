@@ -1,3 +1,0 @@
-review https://www.youtube.com/watch?v=zq2hxb9iED4&list=WL&index=38
-
-ubuntu docker file to create pdf's + travis
