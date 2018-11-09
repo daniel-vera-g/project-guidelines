@@ -1,9 +1,8 @@
 # Git Branching Model
 
-* Use Pull requests
-* Use Github releases for continuous deployment system of software to download
-* Central “truth” repository
-* GitHub issues are the core of just about every action the team takes
+> GitHub issues are the core of just about every action
+
+* The git-flow branching model is being used. For simpler use, install [git-flow tool](https://github.com/petervanderdoes/gitflow-avh)
 
 ## Types of branches
 
@@ -27,7 +26,7 @@
 * Must merge back into: develop
 * Branch naming convention: anything except master, develop, release-*, or hotfix-*
 
-#### Create feature branch:
+#### Creating a feature branch
 
 `git checkout -b myfeature develop`
 
@@ -73,11 +72,13 @@ $ git push origin develop
 * The key moment to branch off a new release branch from develop is when develop (almost) reflects the desired state of the new release.
 * It is exactly at the start of a release branch that the upcoming release gets assigned a version number—not any earlier.
 
-#### Creating a relase branch
+#### Creating a release branch
 
 TODO
 
 #### Finishing a release branch
+
+> semantic release
 
 TODO
 
