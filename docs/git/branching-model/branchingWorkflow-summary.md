@@ -4,7 +4,7 @@
 
 > See branching file
 
-1. Work on feature branch
+1. Create issue and open feature branch
 	* Writes own unit-tests
 	* Gets updates from development branch when needed
 	* Push code to repository -> CI
@@ -30,6 +30,8 @@
 1. Merge of from development(Up to date with master)
 2. Fix bug
 3. Merge back directly into master with the right semantic versioning
+
+* If there is some fast fix needed, a Hotfix branch can be made from master. This branch can be merged directly into develop and then Master.
 
 ## Sources
 

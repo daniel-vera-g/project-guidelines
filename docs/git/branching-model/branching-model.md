@@ -60,17 +60,6 @@
 * Branch naming convention: hotfix-*
 * Like release branches, but they arise from the necessity to act immediately upon an undesired state of a live production version
 
-## Workflow
-
-1. Create Issue
-2. Create feature branch(from issue) from develop branch
-3. Solve Issue
-4. Make PR to merge feature branch into development branch
-5. Create release branch
-6. Merge release branch into develop and master for continuos deployment
-
-* If there is some fast fix needed, a Hotfix branch can be made from master. This branch can be merged directly into develop and then Master.
-
 ## Sources
 
 * <https://hackernoon.com/a-branching-and-releasing-strategy-that-fits-github-flow-be1b6c48eca2 | A Branching and Releasing Strategy That Fits GitHub Flow>
