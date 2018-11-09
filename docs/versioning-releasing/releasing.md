@@ -2,7 +2,7 @@
 
 > Use Release branches to set the release numbers
 
-* Develop on a dev branch and merge it to the release branch (i.e. master) once you are ready to publish
+* Develop on a dev branch and merge it to the release branch once you are ready to publish.
 * Use commits to trigger release numbers
 	* fix(xx) = Patch Release
 	* feat(xx) = Minor feature Release
