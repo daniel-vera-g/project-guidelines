@@ -1,8 +1,8 @@
 # Development summary
 
-* Use Branch permissions -> Only pull request allowed
+## Branching
 
-## General
+> See branching file
 
 1. Work on feature branch
 	* Writes own unit-tests
