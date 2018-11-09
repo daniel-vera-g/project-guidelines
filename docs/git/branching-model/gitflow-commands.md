@@ -2,7 +2,7 @@
 
 ## Install
 
-`sudo apt-get install git-flow
+`sudo apt-get install git-flow`
 
 ## Initialize
 
@@ -139,8 +139,7 @@ _N/A_ | `git push origin master`
 &nbsp; | `git push origin --tags`
 &nbsp; | `git push origin :hotfix/1.2.1` _(if pushed)_
 
-
-## References
+## Sources
 
 * http://nvie.com/posts/a-successful-git-branching-model/
 * https://help.github.com/articles/using-pull-requests#shared-repository-model
