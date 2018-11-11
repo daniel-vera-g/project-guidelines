@@ -55,6 +55,7 @@ With pandoc you can convert markdown files using the script located in the tools
 * Docker container to create build
 * Travis build to lint files and create versioning
 * Fix errors images -> See output from pdf-convert script
+* Review: <https://github.com/elsewhencode/project-guidelines>
 
 ## Contributing
 
