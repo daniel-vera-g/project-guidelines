@@ -29,6 +29,7 @@ Currently it covers:
 	* code-coverage for javascript
 	* githooks
 	* github-tags
+	* RFCs
 2. Development tools
 	* Virtual Machines & Containers
 3. A sample folder structure
