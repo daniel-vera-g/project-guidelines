@@ -27,3 +27,5 @@ More resources:
 * [semantic release note generator](https://github.com/semantic-release/release-notes-generator#options)
 * [Semantic versioning + Changelog](https://github.com/markchalloner/git-semver)
 * https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli
+* <https://gitversion.readthedocs.io/en/latest/examples/>
+* <https://gist.github.com/stuartsaunders/448036/5ae4e961f02e441e98528927d071f51bf082662f>
