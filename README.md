@@ -24,11 +24,11 @@ A collection of project guidelines to always have a quick reference and start fa
 Currently it covers:
 
 1. Code Quality
-	* Continuos delivery/deployment
-	* Continuos integration
-	* code-coverage for javascript
-	* githooks
-	* github-tags
+	* Continuous delivery/deployment
+	* Continuous integration
+	* code-coverage for JavaScript
+	* git hooks
+	* Github-tags
 	* RFCs
 2. Development tools
 	* Virtual Machines & Containers
@@ -43,7 +43,7 @@ Currently it covers:
 
 ### Prerequisites
 
-I recommend a good markdown editor or [pandoc](https://pandoc.org/) to convert the files.
+A good markdown editor or [pandoc](https://pandoc.org/) to convert the files.
 
 With pandoc you can convert markdown files using the script located in the tools folder. Just navigate to the folder with your terminal and execute:
 
@@ -53,21 +53,9 @@ With pandoc you can convert markdown files using the script located in the tools
 
 ## TODO
 
-* Docker container to create build
-* Travis build to lint files and create versioning
-* Fix errors images -> See output from pdf-convert script
-* Review: <https://github.com/elsewhencode/project-guidelines>
-
-## Contributing
-
-1. Fork the repository
-2. Open a new branch from master
-3. Edit your changes or fix an issue
-4. Create a Pull request to master
+> See the issues list.
 
 ## Acknowledgments
 
 * Each file has some sources, where I got inspired.
 * Sometimes I just took over the information.
-
-> If you want to learn more about the topics, feel free to check out the references below.
