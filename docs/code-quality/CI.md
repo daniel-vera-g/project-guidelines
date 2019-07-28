@@ -5,7 +5,7 @@
 ## CI workflow
 
 1. Push the code to Github
-2. Use Docker or Vagrant to build an image for the test environment and ship it fast
+2. Use Docker to build an image for the test environment and ship it fast
 3. Use Travis to trigger, build and run the test upon code updates
 
 ## Sources
