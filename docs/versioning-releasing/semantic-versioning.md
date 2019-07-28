@@ -11,8 +11,8 @@
 
 More resources:
 
-* [](https://semantic-release.gitbook.io/semantic-release/)
-* [](https://semver.org/)
+* <https://semantic-release.gitbook.io/semantic-release/>
+* <https://semver.org/>
 
 ## Motivation
 
