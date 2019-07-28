@@ -2,6 +2,8 @@
 
 > Track statement, branch, and function coverage
 
+## Javascript
+
 * Use mocha for testing and istanbul to do code coverage in js
 
 ## Sources
