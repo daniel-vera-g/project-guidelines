@@ -4,4 +4,4 @@
 
 1. Docker
 2. Virtual Box
-	* Vagrant
+3. Vagrant
