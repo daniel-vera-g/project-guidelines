@@ -12,6 +12,8 @@
 
 ### Package.json
 
+> Using husky for JS
+
 ```json
 {
 ...
